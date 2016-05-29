@@ -1,6 +1,6 @@
 # Overview
 
-Slides for the talk entitled "An improved quantitative measure of the tendency for volcanic ash plumes to form in water: implications for the deposition of marine ash beds", given at the Inaugural UK Fluids Conference 2016 in London, UK on 7-9 September 2016. The slide files are available from the `gh-pages` branch of this repository. The slides are also available to [view online](http://christianjacobs.uk/inaugural-uk-fluids-conference-2016-slides/).
+Slides for the talk entitled "An improved quantitative measure of the tendency for volcanic ash plumes to form in water: implications for the deposition of marine ash beds", given at the [Inaugural UK Fluids Conference 2016](http://www.imperial.ac.uk/fluids-cdt/uk-fluids-conference-2016/) in London, UK on 7-9 September 2016. The slide files are available from the `gh-pages` branch of this repository. The slides are also available to [view online](http://christianjacobs.uk/inaugural-uk-fluids-conference-2016-slides/).
 
 # Abstract
 
