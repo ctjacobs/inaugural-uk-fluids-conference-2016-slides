@@ -123,7 +123,7 @@
 				<section data-markdown>
 					<script type="text/template">
 						   ### New measure
-						   <center><img style="float: center" src="images/h_and_delta.png" width="25%"></center></font>
+						   <center><img style="float: center" src="images/h_and_delta.png" width="25%"></center>
 						   <ul style="width: 100%;">
 						      <li><i>h</i> and &delta; are the <span style="color:lightgreen;">layer thickness</span> and <span style="color:lightgreen;">maximum plume amplitude</span>.</li>
 						      <li>Plumes are controlled by the balance between gravitational forces and the <span style="color:lightgreen;">inertial drag</span> force:</li>
@@ -141,7 +141,15 @@
 						   </ul>
 						   <img src="images/tephra_settling_3d.png" width="80%">
 					</script>
-				</section>				
+				</section>		
+				
+				<section data-markdown>
+					<script type="text/template">
+						   ### Evaluation
+						   <center><img style="float: center" src="images/reference_table.png" width="75%"></center>
+					</script>
+				</section>	
+						
 
 				<section data-markdown>
 					<script type="text/template">
@@ -149,6 +157,8 @@
 						   <ul style="width: 100%;">
 						      <li>&delta; = &delta;(<i>h</i>)</li><br>
 				              <li>Onset of pluming defined as the moment when <span style="color:lightgreen;">&delta; = <i>h</i></span></li><br>
+				              <li>h = <i>u</i><sub>stokes</sub> <i>t</i><sub>plume</sub></li><br>
+				              <li>&delta; = the lowermost position of the 10<sup>-5</sup> volume fraction contour</li><br>
 				              <li>At this time, the quantities <i>h</i> and &alpha;<sub>p</sub> were measured, and B<sub>vv</sub> and B<sub>vi</sub> were calculated</li>
 						   </ul>
 					</script>
@@ -206,6 +216,56 @@
 						   </ul>
 					</script>
 				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Alternative formulation
+						   <ul style="width: 100%;">
+						   <li>Require knowledge about <i>h</i>, &alpha;<sub>p</sub>, and &delta;.</li><br>
+                           <li>These quantities have to be <span style="color:lightgreen;">estimated</span> in practice.</li><br>
+                           <li>Alternatively, re-formulate in terms of a <span style="color:lightgreen;">critical layer thickness</span>, denoted <span style="color:lightgreen;"><i>h</i><sub>crit</sub></span>.</li><br>
+						   </ul>
+					</script>
+				</section>
+
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Alternative formulation
+						   <img src="images/hcrit_bvv.png" width="30%"><br>
+						   <img src="images/hcrit_bvi.png" width="30%">
+						   <ul style="width: 100%;">
+						   <li>Require only volumetric influx of particles and particle diameter.</li><br>
+                           <li>For pluming to occur, <span style="color:crimson;"><i>h</i><sub>crit</sub> < <i>h</i> < <i>H</i></span>, where <i>H</i> is the height of the water column.</li>
+						   </ul>
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Alternative formulation - B<sub>vv</sub>
+						   <img src="images/hcrit_bvv_evaluated.png" width="70%">
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Alternative formulation- B<sub>vi</sub>
+						   <img src="images/hcrit_bvi_evaluated.png" width="70%">
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Alternative formulation
+						   <ul style="width: 100%;">
+						   <li><i>B</i> only considered meaningful/useful if <i>h</i><sub>crit</sub> <span style="color:lightgreen;">consistently agrees</span> with the actual values of <i>h</i> at the time of plume formation.</li><br>
+                           <li><span style="color:crimson;">Not the case</span> for the B<sub>vv</sub>.</li><br>
+                           <li>But the values of <i>h</i><sub>crit</sub> for B<sub>vi</sub> <span style="color:lightgreen;">run parallel to all the data points</span>.</li><br>
+                           <li>Demonstrates the robustness and applicability of B<sub>vi</sub> when the exact values of <i>h</i>, &alpha;<sub>p</sub>, and &delta; are not readily available.</li>
+						   </ul>
+					</script>
+				</section>
 				
 				<section data-markdown>
                     <script type="text/template">
@@ -221,8 +281,8 @@
 						* Fluidity: <span style="color:lightgreen;">www.fluidity-project.org</span>
 						
 						* Paper: <span style="color:lightgreen;">Jacobs <i>et al.</i> (2015)</span>. <i>"An improved quantitative measure of the tendency for volcanic ash plumes to form in water: implications for the deposition of marine ash beds"</i>, Journal of Volcanology and Geothermal Research, 290:114-124. DOI: <a href="http://dx.doi.org/10.1016/j.jvolgeores.2014.10.015"><span style="color:lightgreen;">10.1016/j.jvolgeores.2014.10.015</span></a>
-
-						* Slides: <span style="color:lightgreen;">christianjacobs.uk/inaugural-uk-fluids-conference-2016-slides</span>
+						
+						* <span style="color:lightgreen;">Jacobs (2013)</span>. <i>"Modelling of Multiphase Flows on Adaptive Unstructured Meshes with Applications to the Dynamics of Volcanic Ash Plumes"</i>, PhD Thesis, Imperial College London. Handle: <a href="http://hdl.handle.net/10044/1/12785"><span style="color:lightgreen;">http://hdl.handle.net/10044/1/12785</span></a>
 					</script>
 				</section>
 				
