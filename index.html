@@ -95,7 +95,11 @@
 						   ### Settling timescales
 						   
 						   <ul style="width: 100%;">
-						      <li>The <span style="color:lightgreen;">ratio of timescales</span> for individual and collective settling provides a dimensionless <span style="color:lightgreen;">quantitative measure</span> of the tendency for such plumes to <span style="color:lightgreen;">grow and persist</span>.</li><br>
+						      <li>The <span style="color:lightgreen;">ratio of timescales</span> for individual and collective settling provides a dimensionless <span style="color:lightgreen;">quantitative measure</span> (<span style="color:crimson;"><i>B</i></span>) of the tendency for such plumes to <span style="color:lightgreen;">grow and persist</span>.</li><br>
+						      <ul style="width: 100%;">
+						        <li><span style="color:crimson;"><i>B</i> &le; 1</span>: plumes do not form</li>
+						        <li><span style="color:crimson;"><i>B</i> > 1</span>: favourable conditions for plume growth and persistence</li><br>
+						      </ul>
 						      <li>Important implications for determining <span style="color:lightgreen;">particle residence times</span> and <span style="color:lightgreen;">deposition rates</span>.</li>
 						   </ul>
 					</script>
@@ -131,19 +135,20 @@
 					<script type="text/template">
 						   ### Evaluation
 						   <ul style="width: 100%;">
-						      <li>Suite of 2D multiphase simulations of ash settling in water was performed using <span style="color:lightgreen;">Fluidity</span>.</li>
-						      <li>Replicated the setup of the experiments by Carey (1997).</li><br>
+						      <li>Suite of 2D multiphase simulations of ash settling in water was performed using <span style="color:lightgreen;">Fluidity</span>.</li><br>
+						      <li>Replicated the setup of the experiments by Carey (1997).</li>
+						      <li><span style="color:lightgreen;">Mass flux</span> and <span style="color:lightgreen;">particle diameter</span> were varied.</li><br>
 						   </ul>
 						   <img src="images/tephra_settling_3d.png" width="80%">
 					</script>
 				</section>				
-				
+
 				<section data-markdown>
 					<script type="text/template">
 						   ### Evaluation
 						   <ul style="width: 100%;">
 						      <li>&delta; = &delta;(<i>h</i>)</li><br>
-				              <li>Onset of pluming defined as the moment when &delta; = <i>h</i></li><br>
+				              <li>Onset of pluming defined as the moment when <span style="color:lightgreen;">&delta; = <i>h</i></span></li><br>
 				              <li>At this time, the quantities <i>h</i> and &alpha;<sub>p</sub> were measured, and B<sub>vv</sub> and B<sub>vi</sub> were calculated</li>
 						   </ul>
 					</script>
@@ -151,15 +156,54 @@
 				
 				<section data-markdown>
 					<script type="text/template">
-						   ### Evaluation - B<sub>vv</sub>
+						   ### Simulation with d = 48 um
+						   <img src="images/tephra_settling_2d_48um.png" width="90%">
+						   <font size="3"><center>Jacobs (2013)</center></font>
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Simulation with d = 26 um
+						   <img src="images/tephra_settling_2d_26um.png" width="90%">
+						   <font size="3"><center>Jacobs (2013)</center></font>
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Results
+						   <ul style="width: 100%;">
+						      <li>Reinforced expected relationship between particle diameter, mass flux and layer instability.</li><br>
+						      <li><span style="color:lightgreen;">Smaller particles decrease the time required for plume onset</span> because the slower Stokes' law settling results in a higher average particle concentration in the near-surface layer.</li><br>
+						      <li><span style="color:lightgreen;">Higher particle flux</span> causes a denser build-up of particles in the layer and further <span style="color:lightgreen;">encourages plume formation</span>.</li><br>
+						   </ul>
+					</script>
+				</section>
+				
+				<section data-markdown>
+					<script type="text/template">
+						   ### Results - B<sub>vv</sub>
 						   <img src="images/b_vv_evaluated.png" width="70%">
 					</script>
 				</section>
 
 				<section data-markdown>
 					<script type="text/template">
-						   ### Evaluation - B<sub>vi</sub>
+						   ### Results - B<sub>vi</sub>
 						   <img src="images/b_vi_evaluated.png" width="70%">
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+						   ### Results
+						   <ul style="width: 100%;">
+						   <li><span style="color:lightgreen;">B<sub>vv</sub> and B<sub>vi</sub> > 1</span> since the parameters were measured at the point where plumes formed.</li><br>
+                              <li>B<sub>vi</sub> lay <span style="color:lightgreen;">consistently</span> on a <span style="color:lightgreen;">particular contour</span>, whereas <span style="color:crimson;">B<sub>vv</sub> did not</span>.</li><br>
+                              <li>One would expect plume onset to occur at a <span style="color:lightgreen;">constant <i>B</i> value</span> because the definition of when a plume has formed does not change.</li><br>
+                              <li>By correctly describing the drag on the plumes, B<sub>vi</sub> <span style="color:lightgreen;">robustly estimated</span> the timescale of collective particle settling. In contrast, B<sub>vv</sub> <span style="color:crimson;">grossly under-estimated</span> the timescale of collective settling.</li><br>
+						   </ul>
 					</script>
 				</section>
 				
